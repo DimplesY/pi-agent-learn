@@ -1,0 +1,17 @@
+{
+  "name": "pi-agent-learn",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "^0.82.0",
+    "@earendil-works/pi-ai": "0.82.0",
+    "dotenv": "^17.4.2"
+  }
+}
